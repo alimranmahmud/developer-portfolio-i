@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.font-color {
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+section {
+    display: flex;
+
+
+}
+
+.size {
+    width: 50%;
+    padding-left: 70px;
+}
+
+
+.size img {
+    width: 70%;
+
+}
