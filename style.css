@@ -21,6 +21,7 @@ a {
 
 section {
     display: flex;
+    margin-bottom: 200px;
 
 
 }
@@ -28,16 +29,23 @@ section {
 .size {
     width: 50%;
     padding-left: 70px;
+    padding-right: 120px;
 }
 
 
 .size img {
-    padding-top: 10px;
+    padding-top: 50px;
     width: 55%;
 
 }
 
 .top-banner {
-    background-image: url(top-banner.png);
+    background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
