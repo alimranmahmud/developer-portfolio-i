@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+.font-change {
+    font-size: 40px;
+}
+
 .font-color {
     color: orange;
 }
@@ -19,7 +23,7 @@ a {
     padding: 10px 30px;
 }
 
-section {
+.Experienc-web {
     display: flex;
     margin-bottom: 200px;
 
@@ -28,9 +32,11 @@ section {
 
 .size {
     width: 50%;
-    padding-left: 70px;
-    padding-right: 120px;
+    padding-left: 2%;
+    padding-right: 100px;
+
 }
+
 
 
 .size img {
@@ -48,4 +54,44 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item {
+    width: 40%;
+    margin: 5% 5%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(0, 33, 249, 0.897);
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#update-color {
+    color: rgb(255, 4, 4);
+    background-image: linear-gradient(rgba(0, 107, 246, 0.519), rgba(96, 45, 45, 0.508));
+    padding-left: 30px;
+    padding-right: 10px;
+    border-radius: 30px;
+    margin-left: 40px;
+
+}
+
+#full-stack-developer {
+    border-left: 10px solid rgb(251, 42, 0);
+}
+
+#baby-web-developer {
+    border-left: 10px solid rgb(68, 0, 255);
+}
+
+#new-color {
+    color: black;
+}
+
+footer p {
+    text-align: center;
 }
